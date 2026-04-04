@@ -101,6 +101,18 @@
   border-color: #4caf50;
 }
 
+
+
+
+.home-card.card-orange:hover::before {
+  width: 100%;
+  background: #e87a2e;
+}
+
+.home-card.card-orange:hover {
+  border-color: #e87a2e;
+}
+
 .home-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 16px 48px rgba(43, 45, 66, 0.12);

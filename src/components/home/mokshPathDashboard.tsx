@@ -91,8 +91,9 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({
           <ProgramCard
             title="Academia"
             description="Semester-long courses, faculty resources, and institutional partnerships for colleges and universities."
-            isComingSoon
+
             colorClass="icon-orange"
+            cardClass="card-orange"
             icon={
               <svg
                 width="30"
