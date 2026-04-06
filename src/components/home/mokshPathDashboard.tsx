@@ -49,8 +49,12 @@ const ProgramCard: React.FC<ProgramCardProps> = ({
   </div>
 );
 
-const goToCourses = () => {
-  window.location.href = "https://mokshpath.org/ap#";
+const goToAp = () => {
+  window.location.href = "https://www.mokshpath.org/ap/";
+};
+
+const goToAcademia = () => {
+  window.location.href = "https://www.mokshpath.org/academia/";
 };
 
 
@@ -88,7 +92,10 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({
         </p>
 
         <div className="home-cards">
-          <ProgramCard
+         
+         
+          <div  onClick={goToAcademia}>
+            <ProgramCard
             title="Academia"
             description="Semester-long courses, faculty resources, and institutional partnerships for colleges and universities."
 
@@ -109,8 +116,9 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({
               </svg>
             }
           />
-
-         <div onClick={goToCourses}>
+</div>
+        
+         <div onClick={goToAp}>
 
 
  <ProgramCard
