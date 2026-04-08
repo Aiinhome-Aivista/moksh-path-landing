@@ -2,6 +2,7 @@ import React from "react";
 import "./mokshPathDashboard.css";
 import logo from "../../assets/logogod.svg";
 import mokshRoboImage from "../../assets/hero.svg";
+import HeroIcon from "../../assets/hero.svg";
 
 interface ProgramCardProps {
   title: string;
