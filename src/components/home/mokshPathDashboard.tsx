@@ -101,7 +101,8 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
           <div onClick={goToAcademia}>
             <ProgramCard
               title="Academia"
-              description="Semester-long courses, faculty resources, and institutional partnerships for colleges and universities."
+              // description="Semester-long courses, faculty resources, and institutional partnerships for colleges and universities."
+              description="Revolutionizes assessments with adaptive, personalized evaluation, exposing students' conceptual gaps."
               colorClass="icon-orange"
               cardClass="card-orange"
               icon={
@@ -124,7 +125,8 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
           <div onClick={goToAp}>
             <ProgramCard
               title="Accelerated Program"
-              description="Intensive, industry-curated AI courses — from prompt engineering to autonomous agents, built for speed and depth."
+              // description="Intensive, industry-curated AI courses — from prompt engineering to autonomous agents, built for speed and depth."
+              description="Intensive, industry-curated courses — develop skills to meet industry demands faster & efficiently."
               colorClass="icon-green"
               cardClass="card-green" // ✅ ADD THIS
               icon={
@@ -144,7 +146,8 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
 
           <ProgramCard
             title="School Olympiad"
-            description="Competitive AI challenges, quizzes, and olympiad prep for school students ready to think beyond the textbook."
+            // description="Competitive AI challenges, quizzes, and olympiad prep for school students ready to think beyond the textbook."
+            description="Competitive challenges, quizzes, and olympiad prep for school students ready to think beyond the textbook."
             isComingSoon
             colorClass="icon-blue"
             icon={
