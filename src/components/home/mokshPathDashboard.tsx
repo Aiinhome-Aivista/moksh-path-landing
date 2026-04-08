@@ -1,7 +1,7 @@
 import React from "react";
 import "./mokshPathDashboard.css";
 import logo from "../../assets/logogod.svg";
-import mokshRoboImage from "../../assets/hero.svg";
+// import mokshRoboImage from "../../assets/hero.svg";
 import HeroIcon from "../../assets/hero.svg";
 
 interface ProgramCardProps {
@@ -62,12 +62,12 @@ const goToAcademia = () => {
 const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
   return (
     <div className="home-page-auto-space">
-      <img
+      {/* <img
         src={mokshRoboImage}
         alt=""
         className="home-bg-illustration"
         aria-hidden="true"
-      />
+      /> */}
 
       <nav className="home-nav-fixed">
         <div className="nav-logo-main">
@@ -90,7 +90,7 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
       <div className="home-hero cursor-pointer">
         <img
           src={HeroIcon}
-          className="mt-10 h-32 w-32 animate-bounce"
+          className="mt-6 h-32 w-32 animate-bounce"
           alt="Logo"
           aria-hidden="true"
         />
