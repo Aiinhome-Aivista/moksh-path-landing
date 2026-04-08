@@ -1,7 +1,7 @@
 import React from "react";
 import "./mokshPathDashboard.css";
 import logo from "../../assets/logogod.svg";
-import HeroIcon from "../../assets/hero.svg";
+import mokshRoboImage from "../../assets/hero.svg";
 
 interface ProgramCardProps {
   title: string;
@@ -60,7 +60,14 @@ const goToAcademia = () => {
 
 const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
   return (
-    <div className="home-page">
+    <div className="home-page-auto-space">
+      <img
+        src={mokshRoboImage}
+        alt=""
+        className="home-bg-illustration"
+        aria-hidden="true"
+      />
+
       <nav className="home-nav-fixed">
         <div className="nav-logo-main">
           <img
@@ -100,7 +107,8 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
           <div onClick={goToAcademia}>
             <ProgramCard
               title="Academia"
-              description="Semester-long courses, faculty resources, and institutional partnerships for colleges and universities."
+              // description="Semester-long courses, faculty resources, and institutional partnerships for colleges and universities."
+              description="Revolutionizes assessments with adaptive, personalized evaluation, exposing students' conceptual gaps."
               colorClass="icon-orange"
               cardClass="card-orange"
               icon={
@@ -123,7 +131,8 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
           <div onClick={goToAp}>
             <ProgramCard
               title="Accelerated Program"
-              description="Intensive, industry-curated AI courses — from prompt engineering to autonomous agents, built for speed and depth."
+              // description="Intensive, industry-curated AI courses — from prompt engineering to autonomous agents, built for speed and depth."
+              description="Intensive, industry-curated courses — develop skills to meet industry demands faster & efficiently."
               colorClass="icon-green"
               cardClass="card-green" // ✅ ADD THIS
               icon={
@@ -143,7 +152,8 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
 
           <ProgramCard
             title="School Olympiad"
-            description="Competitive AI challenges, quizzes, and olympiad prep for school students ready to think beyond the textbook."
+            // description="Competitive AI challenges, quizzes, and olympiad prep for school students ready to think beyond the textbook."
+            description="Competitive challenges, quizzes, and olympiad prep for school students ready to think beyond the textbook."
             isComingSoon
             colorClass="icon-blue"
             icon={
