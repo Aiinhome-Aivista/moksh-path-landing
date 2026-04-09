@@ -90,7 +90,7 @@ const ProgramSelector: React.FC<{ onSelectAccelerated: () => void }> = ({}) => {
       <div className="home-hero cursor-pointer">
         <img
           src={HeroIcon}
-          className="mt-6 h-32 w-32 animate-bounce"
+          className="h-32 w-32 animate-bounce"
           alt="Logo"
           aria-hidden="true"
         />
